@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" group="content" method="upgrade" version="4.0">
+  <name>plg_content_sitehidden</name>
+  <author>Kontarinis Andreas — with help from ChatGPT</author>
+  <authorEmail>ankont@sch.gr</authorEmail>
+  <authorUrl>https://superor.wordpress.com/</authorUrl>
+  <creationDate>2025-08-31</creationDate>
+  <copyright>© 2025 Kontarinis Andreas — with help from ChatGPT</copyright>
+  <license>GNU General Public License version 2 or later</license>
+  <version>1.0.0</version>
+  <description>PLG_CONTENT_SITEHIDDEN_DESC</description>
+  <files>
+    <filename plugin="sitehidden">sitehidden.php</filename>
+    <folder>language</folder>
+  </files>
+  <languages>
+    <language tag="en-GB">language/en-GB/en-GB.plg_content_sitehidden.ini</language>
+    <language tag="el-GR">language/el-GR/el-GR.plg_content_sitehidden.ini</language>
+  </languages>
+  <config>
+    <fields name="params">
+      <fieldset name="visibility" label="PLG_CONTENT_SITEHIDDEN_FIELDSET_VIS">
+        <field name="visibility" type="list" default="none" label="PLG_CONTENT_SITEHIDDEN_VIS_LABEL" description="PLG_CONTENT_SITEHIDDEN_VIS_DESC">
+          <option value="none">PLG_CONTENT_SITEHIDDEN_VIS_NONE</option>
+          <option value="superusers">PLG_CONTENT_SITEHIDDEN_VIS_SUPER</option>
+          <option value="groups">PLG_CONTENT_SITEHIDDEN_VIS_GROUPS</option>
+        </field>
+        <field name="groups" type="text" label="PLG_CONTENT_SITEHIDDEN_GROUPS_LABEL" description="PLG_CONTENT_SITEHIDDEN_GROUPS_DESC" />
+      </fieldset>
+    </fields>
+  </config>
+</extension>

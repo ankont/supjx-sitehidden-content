@@ -1,0 +1,12 @@
+/* Admin/editor styling hooks */
+.site-hidden-badge {
+  display: inline-block;
+  padding: .125rem .375rem;
+  border: 1px dashed currentColor;
+  border-radius: .25rem;
+  font-size: .85em;
+  opacity: .9;
+  cursor: pointer;
+}
+.mce-content-body .site-hidden-inner { display: none !important; }
+.mce-content-body .site-hidden-block { display: block; background: rgba(255,230,0,.15); padding: .25rem .5rem; }

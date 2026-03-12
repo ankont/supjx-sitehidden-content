@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" group="editors-xtd" method="upgrade" version="4.0">
+  <name>plg_editors-xtd_sitehiddenbutton</name>
+  <author>Kontarinis Andreas — with help from ChatGPT</author>
+  <authorEmail>ankont@sch.gr</authorEmail>
+  <authorUrl>https://superor.wordpress.com/</authorUrl>
+  <creationDate>2025-08-31</creationDate>
+  <copyright>© 2025 Kontarinis Andreas — with help from ChatGPT</copyright>
+  <license>GNU General Public License version 2 or later</license>
+  <version>1.3.3</version>
+  <description>PLG_EDITORS-XTD_SITEHIDDENBUTTON_DESC</description>
+
+  <namespace path="src">SuperSoft\Plugin\EditorsXtd\SiteHiddenButton</namespace>
+
+  <files>
+    <folder plugin="sitehiddenbutton">services</folder>
+    <folder>src</folder>
+    <folder>language</folder>
+  </files>
+
+  <languages>
+    <language tag="en-GB">language/en-GB/en-GB.plg_editors-xtd_sitehiddenbutton.ini</language>
+    <language tag="en-GB">language/en-GB/en-GB.plg_editors-xtd_sitehiddenbutton.sys.ini</language>
+    <language tag="el-GR">language/el-GR/el-GR.plg_editors-xtd_sitehiddenbutton.ini</language>
+    <language tag="el-GR">language/el-GR/el-GR.plg_editors-xtd_sitehiddenbutton.sys.ini</language>
+  </languages>
+
+  <media destination="plg_editors-xtd_sitehiddenbutton" folder="media">
+    <folder>js</folder>
+    <folder>css</folder>
+  </media>
+</extension>
