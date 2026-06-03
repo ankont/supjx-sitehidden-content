@@ -2,13 +2,13 @@
 <extension type="package" version="4.0" method="upgrade">
   <name>PKG_SITEHIDDEN</name>
   <packagename>sitehidden</packagename>
-  <creationDate>2026-03-12</creationDate>
+  <creationDate>2026-05-18</creationDate>
   <author>Kontarinis Andreas - with help from ChatGPT</author>
   <authorEmail>ankont@sch.gr</authorEmail>
   <authorUrl>https://superor.wordpress.com/</authorUrl>
   <copyright>(C) 2026 Kontarinis Andreas - with help from ChatGPT</copyright>
   <license>GNU General Public License version 2 or later</license>
-  <version>1.3.3</version>
+  <version>1.4.7</version>
   <description>PKG_SITEHIDDEN_DESC</description>
   <languages folder="language">
     <language tag="en-GB" client="administrator">en-GB/pkg_sitehidden.ini</language>

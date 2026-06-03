@@ -38,8 +38,8 @@ Frontend behavior is controlled by the plugin parameters:
 This editor button helps authors insert and edit `{site-hidden}` blocks without typing the markers manually.
 
 - It adds a toolbar button to the Joomla editor.
-- It inserts a visible placeholder block inside the editor.
-- It supports editing the hidden block content again from the editor UI.
+- It inserts a visible inline preview block inside the editor.
+- It supports inline edit/remove controls directly on that preview block.
 
 ## Versioning
 
@@ -100,8 +100,8 @@ Release flow:
 3. Create and push a matching tag:
 
 ```powershell
-git tag v1.3.3
-git push origin v1.3.3
+git tag v1.4.7
+git push origin v1.4.7
 ```
 
 4. The workflow in `.github/workflows/release.yml` will:

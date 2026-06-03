@@ -7,7 +7,7 @@
   <creationDate>2025-08-31</creationDate>
   <copyright>© 2025 Kontarinis Andreas — with help from ChatGPT</copyright>
   <license>GNU General Public License version 2 or later</license>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
   <description>PLG_CONTENT_SITEHIDDEN_DESC</description>
   <files>
     <filename plugin="sitehidden">sitehidden.php</filename>
